@@ -35,14 +35,13 @@ Accessible via conditional drill-through buttons, this window isolates unique jo
 ## 🛠️ Tech Stack & Key Features Implemented
 
 * **BI Platform:** Microsoft Power BI Desktop
-* **Data Connectivity & Processing:** Power Query (M Language) for structural column engineering, data type normalization, and cleansing.
-* **Analytical Modeling:** Created dynamic relationships between parameters using DAX (Data Analysis Expressions) computations for `Median` and `Average` metrics.
+* **Data Ingestion:** Direct flat-file loading with automatic schema recognition.
+* **Analytical Modeling:** Utilized Power BI's native aggregation engine to dynamically compute metrics like `Median` and `Count` directly within visual field buckets.
 * **Advanced Visual Design & UX:**
   * Custom layout grouping using polished, desaturated container borders.
-  * Cross-filtering and interactive tooltips.
-  * Advanced conditional visuals including Gauge meters, Matrix heat maps, and custom embedded Sparklines.
+  * Native cross-filtering and interactive tooltips.
+  * Advanced native visuals including Gauge meters, Horizontal bar charts, and custom Matrix layout configurations with embedded Sparklines.
   * Seamless Page-to-Page Drill-Through mechanics.
-
 ---
 
 ## 📈 Key Market Insights Uncovered
